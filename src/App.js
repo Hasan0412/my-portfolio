@@ -1,8 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import "./App.css";
+import "./App.css"
 
 // Import your components
+import Layout from "./pages/Layout"; 
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
@@ -12,17 +13,15 @@ import Resume from "./pages/Resume";
 function App() {
   return (
     <Router>
-      <div className="App">
-
-        <Routes>
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/resume" component={Resume} />
-        </Routes>
-
-      </div>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
+        </Route>
+      </Routes>
     </Router>
   );
 }
