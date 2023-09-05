@@ -6,3 +6,26 @@ The React Portfolio task involves creating a dynamic single-page web application
 
 ## Installation
 
+In the terminal, you have to first type the command 'npm i'. This command installs the required packages mentioned in the 'package.json' file. After the required packages are all downloaded, type the command 'npm run start' to get the React App running. 
+
+## Screenshots
+
+#### The following shows the Header and links to each page:
+
+![screenshot](/Screenshots/contents.png)
+
+#### The following shows the 'About Me' section:
+
+![screenshot](/Screenshots/bio.png)
+
+#### The following shows the 'Portfolio' section of the website. Each project has a link attached, which takes you to that GitHub repository:
+
+![screenshot](/Screenshots//github.png)
+
+#### The following shows the 'Footer' section of the website. This has my social links, including GitHub and LinkedIn attached:
+
+![screenshot](/Screenshots/footer.png)
+
+## Link
+
+[Webpage](https://hasan0412.github.io/react-portfolio/)
