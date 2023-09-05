@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import About from "./About";
 import Portfolio from "./Portfolio";
 import Footer from "../components/Footer";
+import "../CSS/Home.css"
 
 function Home() {
   return (
